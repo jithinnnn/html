@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="p1">This is first </p>
+    <p id="p2">This is second </p>
+    <p id="p3">This is third </p>
+
+    <h1 class="head">Heading 1</h1>
+    <h1 class="head">Heading 2</h1>
+    <h1 class="head">Heading 3</h1>
+
+    <h2>Sub Heading 1</h2>
+    <h2>Sub Heading 2</h2>
+    <h2>Sub Heading 3</h2>
+
+    <p id="demo">This is orginal content</p>
+<script>
+    document.getElementById('p2').style.color='red';
+    document.getElementsByClassName('head')[0].style.color="blue";    
+    document.getElementsByTagName('h2')[0].style.color="green";
+    document.getElementById('demo').innerHTML='this is changed';
+    document.getElementsByTagName('body')[0].innerHTML="the body has changed";
+</script>
+</body>
+</html>

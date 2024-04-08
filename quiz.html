@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="CSS/quiz.css">
+</head>
+
+<body>
+    <script src="quiz.js"></script>
+    <div id="left">
+        <h3>What does HTML stands for?</h5>
+            <input type="radio" name="op1" id="op1"> HighLevel Markup Language <br>
+            <input type="radio" name="op1" id="op2"> Hypertext Markup Language <br>
+            <input type="radio" name="op1" id="op3"> Hip Hop Markup Language <br>
+            <input type="radio" name="op1" id="op4"> Horrible Markup Language <br>
+
+            <h3>What does CSS stands for?</h5>
+                <input type="radio" name="op2" id="op5">Cascading Style Sheets <br>
+                <input type="radio" name="op2" id="op6"> Code Course Style Sheets<br>
+                <input type="radio" name="op2" id="op7"> Copycat stylesheets <br>
+                <input type="radio" name="op2" id="op8"> Complicated Style Sheets <br> 
+
+                <h3>What display property span elements have by default?</h5>
+                    <input type="radio" name="op3" id="op9">block <br>
+                    <input type="radio" name="op3" id="op10"> inline<br>
+                    <input type="radio" name="op3" id="op11"> inline - block <br>
+                    <input type="radio" name="op3" id="op12"> none <br>
+
+                    <h3>Is Javascript Case - Sensitive?</h5>
+                        <input type="radio" name="op4" id="op13">Yes <br>
+                        <input type="radio" name="op4" id="op14"> No<br>
+
+        <div class="checked">
+            <div id="chk1" style="margin-top: 100px;"></div>
+            <div id="chk2" style="margin-top: 80px;"></div>
+            <div id="chk3" style="margin-top: 70px;"></div>
+            <div id="chk4" style="margin-top: 60px;"></div>
+        </div>
+    </div>
+    <div id="right">
+        <h3>What does HTML stands for?</h5>
+            <input type="radio" name="op5" id="op15"> HighLevel Markup Language <br>
+            <input type="radio" name="op5" id="op16"> Hypertext Markup Language <br>
+            <input type="radio" name="op5" id="op17"> Hip Hop Markup Language <br>
+            <input type="radio" name="op5" id="op18"> Horrible Markup Language <br>
+
+
+                        <button id="submit" onclick="checkResult()">Submit</button>
+                        <p id="score"></p>
+                        <p id="percentage"></p>
+                        <div class="checked">
+                            <div id="chk5" style="margin-top: 90px;"></div>
+                        </div>
+    </div>
+</body>
+
+</html>
